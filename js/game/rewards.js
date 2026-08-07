@@ -1,0 +1,38 @@
+// `vehicle: true` entries are real cars/vehicles eligible to be shown
+// driving on the race track; the decorative ones (flames, trophy) only ever
+// appear as garage collectibles.
+export const CARS = {
+  "red-racer": { name: "Red Racer", emoji: "🚗", vehicle: true },
+  "blue-bolt": { name: "Blue Bolt", emoji: "🚙", vehicle: true },
+  "turbo-spoiler": { name: "Turbo Spoiler", emoji: "🏎️", vehicle: true },
+  "flame-decals": { name: "Flame Decals", emoji: "🔥", vehicle: false },
+  "gold-trophy-car": { name: "Gold Trophy Car", emoji: "🏆", vehicle: false },
+  "rally-car": { name: "Rally Car", emoji: "🚓", vehicle: true },
+  "jungle-buggy": { name: "Jungle Buggy", emoji: "🛻", vehicle: true },
+  "choo-choo-train": { name: "Choo-Choo Train", emoji: "🚂", vehicle: true },
+  "taxi-cab": { name: "Taxi Cab", emoji: "🚕", vehicle: true },
+  "mini-van": { name: "Mini Van", emoji: "🚐", vehicle: true },
+  "motorcycle": { name: "Motorcycle", emoji: "🏍️", vehicle: true },
+  "monster-tractor": { name: "Monster Tractor", emoji: "🚜", vehicle: true },
+  "school-bus": { name: "School Bus", emoji: "🚌", vehicle: true },
+  "rescue-ambulance": { name: "Rescue Ambulance", emoji: "🚑", vehicle: true },
+  "scooter": { name: "Scooter", emoji: "🛵", vehicle: true },
+  "fire-truck": { name: "Fire Truck", emoji: "🚒", vehicle: true },
+  "helicopter": { name: "Helicopter", emoji: "🚁", vehicle: true },
+  "ufo-cruiser": { name: "UFO Cruiser", emoji: "🛸", vehicle: true },
+};
+
+export function allCarIds() {
+  return Object.keys(CARS);
+}
+
+// Shows off whatever he most recently unlocked, instead of always the same
+// car icon on the track - reinforces that the collection is actually his.
+export function currentCarEmoji(unlockedCarIds) {
+  if (!unlockedCarIds?.length) return "🏎️";
+  for (let i = unlockedCarIds.length - 1; i >= 0; i--) {
+    const car = CARS[unlockedCarIds[i]];
+    if (car?.vehicle) return car.emoji;
+  }
+  return "🏎️";
+}
