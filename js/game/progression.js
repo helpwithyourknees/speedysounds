@@ -3,17 +3,19 @@ import { itemsForZone } from "../content/wordLists.js";
 
 const MAX_ATTEMPTS_LOG = 500;
 
-// Ensures every zone has a status entry. Starter zone and the optional bonus
-// road are unlocked from the start; everything else is locked until its
-// prerequisite zone completes.
+// Ensures every zone has a status entry. All zones are unlocked from the
+// start - nothing gates access to anything else anymore. The migration
+// branch below exists because earlier versions of this app *did* lock zones
+// behind completing prior ones, so anyone with existing saved progress could
+// still have zones stuck at status "locked" from before that gating was
+// removed; this promotes those to "unlocked" without touching anything
+// they've already completed.
 export function ensureZonesInitialized(progress) {
   for (const zone of zones) {
     if (!progress.zones[zone.id]) {
-      const unlockedByDefault = zone.requires === null;
-      progress.zones[zone.id] = {
-        status: unlockedByDefault ? "unlocked" : "locked",
-        itemsDone: [],
-      };
+      progress.zones[zone.id] = { status: "unlocked", itemsDone: [] };
+    } else if (progress.zones[zone.id].status === "locked") {
+      progress.zones[zone.id].status = "unlocked";
     }
   }
   return progress;

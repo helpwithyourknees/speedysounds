@@ -300,6 +300,129 @@ export const exercises = [
   { id: "championship_3", sound: "s", stage: "tongue-twister", text: "Sam's silver spaceship zooms past the jungle's giant bridge.", segmentHint: "scan-multi", zoneId: "championship-circuit", isBoss: true, icon: "🚀" },
   { id: "championship_4", sound: "j", stage: "tongue-twister", text: "The rich witch catches seven surprising jewels.", segmentHint: "scan-multi", zoneId: "championship-circuit", isBoss: true, icon: "💎" },
   { id: "championship_5", sound: "r", stage: "tongue-twister", text: "Rachel's robot races the rally car around the racetrack.", segmentHint: "scan-multi", zoneId: "championship-circuit", isBoss: true, icon: "🏆" },
+
+  // --- Zone: Sunshine Sprint (more S initial - including "soft C" words
+  // that make the /s/ sound, like "cent" and "city") ---
+  { id: "sunshine_sea", sound: "s", stage: "initial", text: "sea", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🌊" },
+  { id: "sunshine_seed", sound: "s", stage: "initial", text: "seed", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🌱" },
+  { id: "sunshine_silk", sound: "s", stage: "initial", text: "silk", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🧵" },
+  { id: "sunshine_sink", sound: "s", stage: "initial", text: "sink", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🚰" },
+  { id: "sunshine_sofa", sound: "s", stage: "initial", text: "sofa", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🛋️" },
+  { id: "sunshine_soup", sound: "s", stage: "initial", text: "soup", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🍲" },
+  { id: "sunshine_south", sound: "s", stage: "initial", text: "south", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🧭" },
+  { id: "sunshine_cent", sound: "s", stage: "initial", text: "cent", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🪙" },
+  { id: "sunshine_city", sound: "s", stage: "initial", text: "city", segmentHint: "start", zoneId: "sunshine-sprint", icon: "🏙️" },
+  { id: "sunshine_circle", sound: "s", stage: "initial", text: "circle", segmentHint: "start", zoneId: "sunshine-sprint", icon: "⭕" },
+  { id: "sunshine_sentence_1", sound: "s", stage: "sentence", text: "The city sits south of the sea.", segmentHint: "scan-multi", zoneId: "sunshine-sprint", icon: "🏙️" },
+  { id: "sunshine_sentence_2", sound: "s", stage: "sentence", text: "Sit on the sofa and eat your soup.", segmentHint: "scan-multi", zoneId: "sunshine-sprint", icon: "🍲" },
+
+  // --- Zone: Silver Circuit (more S medial) ---
+  { id: "silver_faster", sound: "s", stage: "medial", text: "faster", segmentHint: "scan", zoneId: "silver-circuit", icon: "🏎️" },
+  { id: "silver_master", sound: "s", stage: "medial", text: "master", segmentHint: "scan", zoneId: "silver-circuit", icon: "🎓" },
+  { id: "silver_monster", sound: "s", stage: "medial", text: "monster", segmentHint: "scan", zoneId: "silver-circuit", icon: "👹" },
+  { id: "silver_answer", sound: "s", stage: "medial", text: "answer", segmentHint: "scan", zoneId: "silver-circuit", icon: "💬" },
+  { id: "silver_escape", sound: "s", stage: "medial", text: "escape", segmentHint: "scan", zoneId: "silver-circuit", icon: "🏃" },
+  { id: "silver_classroom", sound: "s", stage: "medial", text: "classroom", segmentHint: "scan", zoneId: "silver-circuit", icon: "🏫" },
+  { id: "silver_disco", sound: "s", stage: "medial", text: "disco", segmentHint: "scan", zoneId: "silver-circuit", icon: "🕺" },
+  { id: "silver_muscle", sound: "s", stage: "medial", text: "muscle", segmentHint: "scan", zoneId: "silver-circuit", icon: "💪" },
+  { id: "silver_sentence_1", sound: "s", stage: "sentence", text: "The monster is faster than the master.", segmentHint: "scan-multi", zoneId: "silver-circuit", icon: "👹" },
+  { id: "silver_sentence_2", sound: "s", stage: "sentence", text: "Answer quickly so you can escape.", segmentHint: "scan-multi", zoneId: "silver-circuit", icon: "🏃" },
+
+  // --- Zone: Stardust Street (more S final) ---
+  { id: "stardust_plus", sound: "s", stage: "final", text: "plus", segmentHint: "end", zoneId: "stardust-street", icon: "➕" },
+  { id: "stardust_circus", sound: "s", stage: "final", text: "circus", segmentHint: "end", zoneId: "stardust-street", icon: "🎪" },
+  { id: "stardust_campus", sound: "s", stage: "final", text: "campus", segmentHint: "end", zoneId: "stardust-street", icon: "🏫" },
+  { id: "stardust_walrus", sound: "s", stage: "final", text: "walrus", segmentHint: "end", zoneId: "stardust-street", icon: "🦭" },
+  { id: "stardust_octopus", sound: "s", stage: "final", text: "octopus", segmentHint: "end", zoneId: "stardust-street", icon: "🐙" },
+  { id: "stardust_bonus", sound: "s", stage: "final", text: "bonus", segmentHint: "end", zoneId: "stardust-street", icon: "🎁" },
+  { id: "stardust_focus", sound: "s", stage: "final", text: "focus", segmentHint: "end", zoneId: "stardust-street", icon: "🔍" },
+  { id: "stardust_cactus", sound: "s", stage: "final", text: "cactus", segmentHint: "end", zoneId: "stardust-street", icon: "🌵" },
+  { id: "stardust_sentence_1", sound: "s", stage: "sentence", text: "The circus octopus is a bonus surprise.", segmentHint: "scan-multi", zoneId: "stardust-street", icon: "🐙" },
+  { id: "stardust_sentence_2", sound: "s", stage: "sentence", text: "Focus on the walrus at the campus circus.", segmentHint: "scan-multi", zoneId: "stardust-street", icon: "🦭" },
+
+  // --- Zone: Super Blend Boulevard (more S blends - spr/str/scr/sw/sk) ---
+  { id: "blendblvd_spring", sound: "s", stage: "blend", blend: "spr", text: "spring", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🌱" },
+  { id: "blendblvd_string", sound: "s", stage: "blend", blend: "str", text: "string", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🎻" },
+  { id: "blendblvd_scream", sound: "s", stage: "blend", blend: "scr", text: "scream", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "😱" },
+  { id: "blendblvd_swing", sound: "s", stage: "blend", blend: "sw", text: "swing", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🎢" },
+  { id: "blendblvd_stripe", sound: "s", stage: "blend", blend: "str", text: "stripe", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🦓" },
+  { id: "blendblvd_sport", sound: "s", stage: "blend", blend: "sp", text: "sport", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "⚽" },
+  { id: "blendblvd_spark", sound: "s", stage: "blend", blend: "sp", text: "spark", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "✨" },
+  { id: "blendblvd_swim", sound: "s", stage: "blend", blend: "sw", text: "swim", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🏊" },
+  { id: "blendblvd_scarf", sound: "s", stage: "blend", blend: "sc", text: "scarf", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🧣" },
+  { id: "blendblvd_sweater", sound: "s", stage: "blend", blend: "sw", text: "sweater", segmentHint: "start", zoneId: "super-blend-boulevard", icon: "🧥" },
+  { id: "blendblvd_sentence_1", sound: "s", stage: "sentence", text: "Wear a scarf and sweater in the spring.", segmentHint: "scan-multi", zoneId: "super-blend-boulevard", icon: "🧣" },
+  { id: "blendblvd_sentence_2", sound: "s", stage: "sentence", text: "The string made a spark and a scream.", segmentHint: "scan-multi", zoneId: "super-blend-boulevard", icon: "✨" },
+
+  // --- Zone: Buzzing Boulevard (more Z) ---
+  { id: "buzzblvd_zone", sound: "z", stage: "initial", text: "zone", segmentHint: "start", zoneId: "buzzing-boulevard", icon: "🌀" },
+  { id: "buzzblvd_zap", sound: "z", stage: "initial", text: "zap", segmentHint: "start", zoneId: "buzzing-boulevard", icon: "⚡" },
+  { id: "buzzblvd_doze", sound: "z", stage: "final", text: "doze", segmentHint: "end", zoneId: "buzzing-boulevard", icon: "😴" },
+  { id: "buzzblvd_haze", sound: "z", stage: "final", text: "haze", segmentHint: "end", zoneId: "buzzing-boulevard", icon: "🌫️" },
+  { id: "buzzblvd_maze", sound: "z", stage: "final", text: "maze", segmentHint: "end", zoneId: "buzzing-boulevard", icon: "🧩" },
+  { id: "buzzblvd_gaze", sound: "z", stage: "final", text: "gaze", segmentHint: "end", zoneId: "buzzing-boulevard", icon: "👀" },
+  { id: "buzzblvd_raise", sound: "z", stage: "final", text: "raise", segmentHint: "end", zoneId: "buzzing-boulevard", icon: "🙌" },
+  { id: "buzzblvd_cruise", sound: "z", stage: "final", text: "cruise", segmentHint: "end", zoneId: "buzzing-boulevard", icon: "🚢" },
+  { id: "buzzblvd_sentence_1", sound: "z", stage: "sentence", text: "Raise your hand if you want to cruise.", segmentHint: "scan-multi", zoneId: "buzzing-boulevard", icon: "🚢" },
+  { id: "buzzblvd_sentence_2", sound: "z", stage: "sentence", text: "The zebra will doze in the hazy zone.", segmentHint: "scan-multi", zoneId: "buzzing-boulevard", icon: "🦓" },
+
+  // --- Zone: Shiny Ship Harbor (NEW sound: SH - very relevant for an
+  // interdental lisp, since /sh/ is another sibilant made with a similar
+  // forward tongue placement issue as /s/ and /z/) ---
+  { id: "ship_ship", sound: "sh", stage: "initial", text: "ship", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "🚢" },
+  { id: "ship_shoe", sound: "sh", stage: "initial", text: "shoe", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "👟" },
+  { id: "ship_shell", sound: "sh", stage: "initial", text: "shell", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "🐚" },
+  { id: "ship_shop", sound: "sh", stage: "initial", text: "shop", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "🏪" },
+  { id: "ship_shark", sound: "sh", stage: "initial", text: "shark", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "🦈" },
+  { id: "ship_sheep", sound: "sh", stage: "initial", text: "sheep", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "🐑" },
+  { id: "ship_shine", sound: "sh", stage: "initial", text: "shine", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "✨" },
+  { id: "ship_share", sound: "sh", stage: "initial", text: "share", segmentHint: "start", zoneId: "shiny-ship-harbor", icon: "🤝" },
+  { id: "ship_fish", sound: "sh", stage: "final", text: "fish", segmentHint: "end", zoneId: "shiny-ship-harbor", icon: "🐟" },
+  { id: "ship_wish", sound: "sh", stage: "final", text: "wish", segmentHint: "end", zoneId: "shiny-ship-harbor", icon: "🌠" },
+  { id: "ship_wash", sound: "sh", stage: "final", text: "wash", segmentHint: "end", zoneId: "shiny-ship-harbor", icon: "🧼" },
+  { id: "ship_brush", sound: "sh", stage: "final", text: "brush", segmentHint: "end", zoneId: "shiny-ship-harbor", icon: "🪥" },
+  { id: "ship_crash", sound: "sh", stage: "final", text: "crash", segmentHint: "end", zoneId: "shiny-ship-harbor", icon: "💥" },
+  { id: "ship_splash", sound: "sh", stage: "final", text: "splash", segmentHint: "end", zoneId: "shiny-ship-harbor", icon: "💦" },
+  { id: "ship_sentence_1", sound: "sh", stage: "sentence", text: "The shy shark shares a shiny shell.", segmentHint: "scan-multi", zoneId: "shiny-ship-harbor", icon: "🦈" },
+  { id: "ship_sentence_2", sound: "sh", stage: "sentence", text: "Wash the fish before you splash.", segmentHint: "scan-multi", zoneId: "shiny-ship-harbor", icon: "🐟" },
+
+  // --- Zone: Sibilant Circuit (review mix of S/Z/SH/CH) ---
+  { id: "sibcircuit_sun", sound: "s", stage: "initial", text: "sun", segmentHint: "start", zoneId: "sibilant-circuit", icon: "☀️" },
+  { id: "sibcircuit_sock", sound: "s", stage: "initial", text: "sock", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🧦" },
+  { id: "sibcircuit_zoo", sound: "z", stage: "initial", text: "zoo", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🦁" },
+  { id: "sibcircuit_zebra", sound: "z", stage: "initial", text: "zebra", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🦓" },
+  { id: "sibcircuit_ship", sound: "sh", stage: "initial", text: "ship", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🚢" },
+  { id: "sibcircuit_shell", sound: "sh", stage: "initial", text: "shell", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🐚" },
+  { id: "sibcircuit_chip", sound: "ch", stage: "initial", text: "chip", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🍟" },
+  { id: "sibcircuit_chair", sound: "ch", stage: "initial", text: "chair", segmentHint: "start", zoneId: "sibilant-circuit", icon: "🪑" },
+  { id: "sibcircuit_sentence_1", sound: "sh", stage: "sentence", text: "The zebra wears a shiny shell.", segmentHint: "scan-multi", zoneId: "sibilant-circuit", icon: "🦓" },
+  { id: "sibcircuit_sentence_2", sound: "s", stage: "sentence", text: "Sam's ship chases the chatty shark.", segmentHint: "scan-multi", zoneId: "sibilant-circuit", icon: "🚢" },
+
+  // --- Zone: Sentence Central (more mixed sentences, S-heavy) ---
+  { id: "sentcentral_1", sound: "s", stage: "sentence", text: "Sam sells seven silver spoons.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🥄" },
+  { id: "sentcentral_2", sound: "s", stage: "sentence", text: "The sun sank slowly past the sea.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🌅" },
+  { id: "sentcentral_3", sound: "z", stage: "sentence", text: "Zoe's zebra zips past the buzzing bees.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🦓" },
+  { id: "sentcentral_4", sound: "sh", stage: "sentence", text: "The sheep shine near the shop.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🐑" },
+  { id: "sentcentral_5", sound: "ch", stage: "sentence", text: "The chatty child chews chips at lunch.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🍟" },
+  { id: "sentcentral_6", sound: "s", stage: "sentence", text: "Six silly seals swim past the sailboat.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🦭" },
+  { id: "sentcentral_7", sound: "s", stage: "sentence", text: "Sara's spaceship soars past seven stars.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🚀" },
+  { id: "sentcentral_8", sound: "s", stage: "sentence", text: "The sassy cat sits on a soft cushion.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🐱" },
+  { id: "sentcentral_9", sound: "z", stage: "sentence", text: "Please freeze before you sneeze again.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🤧" },
+  { id: "sentcentral_10", sound: "s", stage: "sentence", text: "Sam's sister sees a silver spaceship.", segmentHint: "scan-multi", zoneId: "sentence-central", icon: "🚀" },
+
+  // --- Zone: Tongue Twister Trail (boss - more twisters, S/SH heavy) ---
+  { id: "twistertrail_1", sound: "sh", stage: "tongue-twister", text: "She sells seashells by the seashore.", segmentHint: "scan-multi", zoneId: "tongue-twister-trail", isBoss: true, icon: "🐚" },
+  { id: "twistertrail_2", sound: "s", stage: "tongue-twister", text: "Sam's silly seals slide past six sleepy sheep.", segmentHint: "scan-multi", zoneId: "tongue-twister-trail", isBoss: true, icon: "🦭" },
+  { id: "twistertrail_3", sound: "s", stage: "tongue-twister", text: "Susie's spaceship soars past seven silver stars.", segmentHint: "scan-multi", zoneId: "tongue-twister-trail", isBoss: true, icon: "🚀" },
+  { id: "twistertrail_4", sound: "sh", stage: "tongue-twister", text: "The shy shark shines and shares her shell.", segmentHint: "scan-multi", zoneId: "tongue-twister-trail", isBoss: true, icon: "🦈" },
+  { id: "twistertrail_5", sound: "s", stage: "tongue-twister", text: "Six silver sailboats sail slowly past the sand.", segmentHint: "scan-multi", zoneId: "tongue-twister-trail", isBoss: true, icon: "⛵" },
+
+  // --- Zone: Grand Prix Finale (ultimate boss - hardest mixed content) ---
+  { id: "grandprix_1", sound: "s", stage: "tongue-twister", text: "Sam's silver spaceship soars past six sleepy seals in the sunshine.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🚀" },
+  { id: "grandprix_2", sound: "sh", stage: "tongue-twister", text: "She washes the shiny shells on the shore.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🐚" },
+  { id: "grandprix_3", sound: "z", stage: "tongue-twister", text: "The zebra zips past the buzzing zone in a zigzag.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🦓" },
+  { id: "grandprix_4", sound: "ch", stage: "tongue-twister", text: "Chatty cheetahs chase the chatterbox chickens.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🐆" },
+  { id: "grandprix_5", sound: "s", stage: "tongue-twister", text: "The fastest race car speeds past the silver stadium.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🏎️" },
 ];
 
 export function itemsForZone(zoneId) {

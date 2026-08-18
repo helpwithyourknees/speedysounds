@@ -49,4 +49,14 @@ export const placementLessons = {
       "It should sound like the start of 'chip': ch-ch-chip!",
     ],
   },
+  sh: {
+    title: "How to make a great /sh/ sound",
+    icon: "🚢",
+    steps: [
+      "Round your lips just a little, almost like you're about to whistle.",
+      "Pull your tongue back a bit from where you'd make /s/ - it doesn't touch your teeth at all.",
+      "Blow air out in one smooth stream - no bouncing, just a long quiet hiss.",
+      "It should sound like a librarian asking for quiet: shhhhhhh",
+    ],
+  },
 };
