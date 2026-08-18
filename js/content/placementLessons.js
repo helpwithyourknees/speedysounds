@@ -59,4 +59,14 @@ export const placementLessons = {
       "It should sound like a librarian asking for quiet: shhhhhhh",
     ],
   },
+  zh: {
+    title: "How to make a great /zh/ sound",
+    icon: "💰",
+    steps: [
+      "Same mouth shape as /sh/: lips rounded a little, tongue pulled back, not touching your teeth.",
+      "This time, turn on your voice - it should buzz instead of just hiss.",
+      "It's the sound in the middle of words like 'treasure' and 'measure'.",
+      "Try it slowly: mea-zh-ure",
+    ],
+  },
 };

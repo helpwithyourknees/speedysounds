@@ -30,6 +30,16 @@ export const CARS = {
   "auto-rickshaw": { name: "Auto Rickshaw", emoji: "🛺", vehicle: true },
   "rocket-ship": { name: "Rocket Ship", emoji: "🚀", vehicle: true },
   "satellite-cruiser": { name: "Satellite Cruiser", emoji: "🛰️", vehicle: true },
+  "skateboard": { name: "Skateboard", emoji: "🛹", vehicle: true },
+  "snow-skis": { name: "Snow Skis", emoji: "🎿", vehicle: true },
+  "roller-skates": { name: "Roller Skates", emoji: "🛼", vehicle: true },
+  "snowboard": { name: "Snowboard", emoji: "🏂", vehicle: true },
+  "hot-air-balloon": { name: "Hot Air Balloon", emoji: "🎈", vehicle: true },
+  "car-ferry": { name: "Car Ferry", emoji: "⛴️", vehicle: true },
+  "parachute": { name: "Parachute", emoji: "🪂", vehicle: true },
+  "pirate-ship": { name: "Pirate Ship", emoji: "🚢", vehicle: true },
+  "monorail": { name: "Monorail", emoji: "🚝", vehicle: true },
+  "grand-ferris-wheel": { name: "Grand Ferris Wheel", emoji: "🎡", vehicle: true },
 };
 
 export function allCarIds() {

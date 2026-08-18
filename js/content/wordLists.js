@@ -423,6 +423,123 @@ export const exercises = [
   { id: "grandprix_3", sound: "z", stage: "tongue-twister", text: "The zebra zips past the buzzing zone in a zigzag.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🦓" },
   { id: "grandprix_4", sound: "ch", stage: "tongue-twister", text: "Chatty cheetahs chase the chatterbox chickens.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🐆" },
   { id: "grandprix_5", sound: "s", stage: "tongue-twister", text: "The fastest race car speeds past the silver stadium.", segmentHint: "scan-multi", zoneId: "grand-prix-finale", isBoss: true, icon: "🏎️" },
+
+  // --- Zone: Sunset Strip (more S initial) ---
+  { id: "sunsetstrip_send", sound: "s", stage: "initial", text: "send", segmentHint: "start", zoneId: "sunset-strip", icon: "📤" },
+  { id: "sunsetstrip_set", sound: "s", stage: "initial", text: "set", segmentHint: "start", zoneId: "sunset-strip", icon: "📍" },
+  { id: "sunsetstrip_several", sound: "s", stage: "initial", text: "several", segmentHint: "start", zoneId: "sunset-strip", icon: "🔢" },
+  { id: "sunsetstrip_simple", sound: "s", stage: "initial", text: "simple", segmentHint: "start", zoneId: "sunset-strip", icon: "✅" },
+  { id: "sunsetstrip_single", sound: "s", stage: "initial", text: "single", segmentHint: "start", zoneId: "sunset-strip", icon: "1️⃣" },
+  { id: "sunsetstrip_special", sound: "s", stage: "initial", text: "special", segmentHint: "start", zoneId: "sunset-strip", icon: "⭐" },
+  { id: "sunsetstrip_story", sound: "s", stage: "initial", text: "story", segmentHint: "start", zoneId: "sunset-strip", icon: "📖" },
+  { id: "sunsetstrip_sudden", sound: "s", stage: "initial", text: "sudden", segmentHint: "start", zoneId: "sunset-strip", icon: "⚡" },
+  { id: "sunsetstrip_sugar", sound: "s", stage: "initial", text: "sugar", segmentHint: "start", zoneId: "sunset-strip", icon: "🍬" },
+  { id: "sunsetstrip_sail", sound: "s", stage: "initial", text: "sail", segmentHint: "start", zoneId: "sunset-strip", icon: "⛵" },
+  { id: "sunsetstrip_sentence_1", sound: "s", stage: "sentence", text: "Send a single special story.", segmentHint: "scan-multi", zoneId: "sunset-strip", icon: "📖" },
+  { id: "sunsetstrip_sentence_2", sound: "s", stage: "sentence", text: "Sail south before sudden storms.", segmentHint: "scan-multi", zoneId: "sunset-strip", icon: "⛵" },
+
+  // --- Zone: Star Harbor (more S final) ---
+  { id: "starharbor_kiss", sound: "s", stage: "final", text: "kiss", segmentHint: "end", zoneId: "star-harbor", icon: "💋" },
+  { id: "starharbor_miss", sound: "s", stage: "final", text: "miss", segmentHint: "end", zoneId: "star-harbor", icon: "😢" },
+  { id: "starharbor_press", sound: "s", stage: "final", text: "press", segmentHint: "end", zoneId: "star-harbor", icon: "🔘" },
+  { id: "starharbor_less", sound: "s", stage: "final", text: "less", segmentHint: "end", zoneId: "star-harbor", icon: "➖" },
+  { id: "starharbor_chess", sound: "s", stage: "final", text: "chess", segmentHint: "end", zoneId: "star-harbor", icon: "♟️" },
+  { id: "starharbor_guess", sound: "s", stage: "final", text: "guess", segmentHint: "end", zoneId: "star-harbor", icon: "🤷" },
+  { id: "starharbor_moss", sound: "s", stage: "final", text: "moss", segmentHint: "end", zoneId: "star-harbor", icon: "🌿" },
+  { id: "starharbor_boss", sound: "s", stage: "final", text: "boss", segmentHint: "end", zoneId: "star-harbor", icon: "👔" },
+  { id: "starharbor_sentence_1", sound: "s", stage: "sentence", text: "The boss will guess less than us.", segmentHint: "scan-multi", zoneId: "star-harbor", icon: "👔" },
+  { id: "starharbor_sentence_2", sound: "s", stage: "sentence", text: "Press play and start the chess game.", segmentHint: "scan-multi", zoneId: "star-harbor", icon: "♟️" },
+
+  // --- Zone: Spice Street (more S medial) ---
+  { id: "spicestreet_also", sound: "s", stage: "medial", text: "also", segmentHint: "scan", zoneId: "spice-street", icon: "➕" },
+  { id: "spicestreet_person", sound: "s", stage: "medial", text: "person", segmentHint: "scan", zoneId: "spice-street", icon: "🧑" },
+  { id: "spicestreet_message", sound: "s", stage: "medial", text: "message", segmentHint: "scan", zoneId: "spice-street", icon: "✉️" },
+  { id: "spicestreet_missing", sound: "s", stage: "medial", text: "missing", segmentHint: "scan", zoneId: "spice-street", icon: "❓" },
+  { id: "spicestreet_dressing", sound: "s", stage: "medial", text: "dressing", segmentHint: "scan", zoneId: "spice-street", icon: "🥗" },
+  { id: "spicestreet_wisdom", sound: "s", stage: "medial", text: "wisdom", segmentHint: "scan", zoneId: "spice-street", icon: "🦉" },
+  { id: "spicestreet_passage", sound: "s", stage: "medial", text: "passage", segmentHint: "scan", zoneId: "spice-street", icon: "📜" },
+  { id: "spicestreet_musical", sound: "s", stage: "medial", text: "musical", segmentHint: "scan", zoneId: "spice-street", icon: "🎵" },
+  { id: "spicestreet_sentence_1", sound: "s", stage: "sentence", text: "The wise person left a message.", segmentHint: "scan-multi", zoneId: "spice-street", icon: "✉️" },
+  { id: "spicestreet_sentence_2", sound: "s", stage: "sentence", text: "This musical passage is missing a note.", segmentHint: "scan-multi", zoneId: "spice-street", icon: "🎵" },
+
+  // --- Zone: Squeeze Zone (new S blends - squ/spl/spr) ---
+  { id: "squeezezone_square", sound: "s", stage: "blend", blend: "squ", text: "square", segmentHint: "start", zoneId: "squeeze-zone", icon: "🟦" },
+  { id: "squeezezone_squeeze", sound: "s", stage: "blend", blend: "squ", text: "squeeze", segmentHint: "start", zoneId: "squeeze-zone", icon: "🤗" },
+  { id: "squeezezone_squirrel", sound: "s", stage: "blend", blend: "squ", text: "squirrel", segmentHint: "start", zoneId: "squeeze-zone", icon: "🐿️" },
+  { id: "squeezezone_squash", sound: "s", stage: "blend", blend: "squ", text: "squash", segmentHint: "start", zoneId: "squeeze-zone", icon: "🎃" },
+  { id: "squeezezone_split", sound: "s", stage: "blend", blend: "spl", text: "split", segmentHint: "start", zoneId: "squeeze-zone", icon: "➗" },
+  { id: "squeezezone_spray", sound: "s", stage: "blend", blend: "spr", text: "spray", segmentHint: "start", zoneId: "squeeze-zone", icon: "💦" },
+  { id: "squeezezone_sprout", sound: "s", stage: "blend", blend: "spr", text: "sprout", segmentHint: "start", zoneId: "squeeze-zone", icon: "🌱" },
+  { id: "squeezezone_scrub", sound: "s", stage: "blend", blend: "scr", text: "scrub", segmentHint: "start", zoneId: "squeeze-zone", icon: "🧽" },
+  { id: "squeezezone_sentence_1", sound: "s", stage: "sentence", text: "The squirrel will squeeze through the square hole.", segmentHint: "scan-multi", zoneId: "squeeze-zone", icon: "🐿️" },
+  { id: "squeezezone_sentence_2", sound: "s", stage: "sentence", text: "Spray water on the sprouting squash.", segmentHint: "scan-multi", zoneId: "squeeze-zone", icon: "🎃" },
+
+  // --- Zone: Zippy Zone (more Z) ---
+  { id: "zippyzone_zipper", sound: "z", stage: "initial", text: "zipper", segmentHint: "start", zoneId: "zippy-zone", icon: "🤐" },
+  { id: "zippyzone_zesty", sound: "z", stage: "initial", text: "zesty", segmentHint: "start", zoneId: "zippy-zone", icon: "🌶️" },
+  { id: "zippyzone_quiz", sound: "z", stage: "final", text: "quiz", segmentHint: "end", zoneId: "zippy-zone", icon: "📝" },
+  { id: "zippyzone_jazz", sound: "z", stage: "final", text: "jazz", segmentHint: "end", zoneId: "zippy-zone", icon: "🎷" },
+  { id: "zippyzone_laser", sound: "z", stage: "medial", text: "laser", segmentHint: "scan", zoneId: "zippy-zone", icon: "⚡" },
+  { id: "zippyzone_buzzer", sound: "z", stage: "medial", text: "buzzer", segmentHint: "scan", zoneId: "zippy-zone", icon: "🔔" },
+  { id: "zippyzone_dozen", sound: "z", stage: "medial", text: "dozen", segmentHint: "scan", zoneId: "zippy-zone", icon: "🍩" },
+  { id: "zippyzone_citizen", sound: "z", stage: "medial", text: "citizen", segmentHint: "scan", zoneId: "zippy-zone", icon: "🧑‍🤝‍🧑" },
+  { id: "zippyzone_sentence_1", sound: "z", stage: "sentence", text: "The jazzy buzzer plays a zesty quiz.", segmentHint: "scan-multi", zoneId: "zippy-zone", icon: "🎷" },
+  { id: "zippyzone_sentence_2", sound: "z", stage: "sentence", text: "A dozen citizens zoomed past the laser.", segmentHint: "scan-multi", zoneId: "zippy-zone", icon: "⚡" },
+
+  // --- Zone: Chomp City (more CH) ---
+  { id: "chompcity_church", sound: "ch", stage: "initial", text: "church", segmentHint: "start", zoneId: "chomp-city", icon: "⛪" },
+  { id: "chompcity_chest", sound: "ch", stage: "initial", text: "chest", segmentHint: "start", zoneId: "chomp-city", icon: "📦" },
+  { id: "chompcity_cheap", sound: "ch", stage: "initial", text: "cheap", segmentHint: "start", zoneId: "chomp-city", icon: "💵" },
+  { id: "chompcity_coach", sound: "ch", stage: "final", text: "coach", segmentHint: "end", zoneId: "chomp-city", icon: "🏋️" },
+  { id: "chompcity_teach", sound: "ch", stage: "final", text: "teach", segmentHint: "end", zoneId: "chomp-city", icon: "👩‍🏫" },
+  { id: "chompcity_reach", sound: "ch", stage: "final", text: "reach", segmentHint: "end", zoneId: "chomp-city", icon: "🙋" },
+  { id: "chompcity_chunk", sound: "ch", stage: "initial", text: "chunk", segmentHint: "start", zoneId: "chomp-city", icon: "🧀" },
+  { id: "chompcity_munch", sound: "ch", stage: "final", text: "munch", segmentHint: "end", zoneId: "chomp-city", icon: "🍪" },
+  { id: "chompcity_sentence_1", sound: "ch", stage: "sentence", text: "The coach will teach at the church.", segmentHint: "scan-multi", zoneId: "chomp-city", icon: "⛪" },
+  { id: "chompcity_sentence_2", sound: "ch", stage: "sentence", text: "Munch a chunk of cheap cheese.", segmentHint: "scan-multi", zoneId: "chomp-city", icon: "🍪" },
+
+  // --- Zone: Shore Town (more SH) ---
+  { id: "shoretown_shirt", sound: "sh", stage: "initial", text: "shirt", segmentHint: "start", zoneId: "shore-town", icon: "👕" },
+  { id: "shoretown_shower", sound: "sh", stage: "initial", text: "shower", segmentHint: "start", zoneId: "shore-town", icon: "🚿" },
+  { id: "shoretown_shape", sound: "sh", stage: "initial", text: "shape", segmentHint: "start", zoneId: "shore-town", icon: "🔷" },
+  { id: "shoretown_cash", sound: "sh", stage: "final", text: "cash", segmentHint: "end", zoneId: "shore-town", icon: "💵" },
+  { id: "shoretown_fresh", sound: "sh", stage: "final", text: "fresh", segmentHint: "end", zoneId: "shore-town", icon: "🥬" },
+  { id: "shoretown_flash", sound: "sh", stage: "final", text: "flash", segmentHint: "end", zoneId: "shore-town", icon: "⚡" },
+  { id: "shoretown_dish", sound: "sh", stage: "final", text: "dish", segmentHint: "end", zoneId: "shore-town", icon: "🍽️" },
+  { id: "shoretown_rush", sound: "sh", stage: "final", text: "rush", segmentHint: "end", zoneId: "shore-town", icon: "🏃" },
+  { id: "shoretown_sentence_1", sound: "sh", stage: "sentence", text: "Wash your shirt in the shower.", segmentHint: "scan-multi", zoneId: "shore-town", icon: "🚿" },
+  { id: "shoretown_sentence_2", sound: "sh", stage: "sentence", text: "Rush to wash the fresh dish.", segmentHint: "scan-multi", zoneId: "shore-town", icon: "🍽️" },
+
+  // --- Zone: Treasure Trail (NEW sound: ZH - limited vocabulary in English,
+  // so kept smaller and mixed with a couple of review words) ---
+  { id: "treasuretrail_treasure", sound: "zh", stage: "medial", text: "treasure", segmentHint: "scan", zoneId: "treasure-trail", icon: "💰" },
+  { id: "treasuretrail_measure", sound: "zh", stage: "medial", text: "measure", segmentHint: "scan", zoneId: "treasure-trail", icon: "📏" },
+  { id: "treasuretrail_usual", sound: "zh", stage: "medial", text: "usual", segmentHint: "scan", zoneId: "treasure-trail", icon: "👍" },
+  { id: "treasuretrail_television", sound: "zh", stage: "medial", text: "television", segmentHint: "scan", zoneId: "treasure-trail", icon: "📺" },
+  { id: "treasuretrail_garage", sound: "zh", stage: "final", text: "garage", segmentHint: "end", zoneId: "treasure-trail", icon: "🚗" },
+  { id: "treasuretrail_casual", sound: "zh", stage: "medial", text: "casual", segmentHint: "scan", zoneId: "treasure-trail", icon: "👕" },
+  { id: "treasuretrail_sentence_1", sound: "zh", stage: "sentence", text: "It's usual to measure the treasure.", segmentHint: "scan-multi", zoneId: "treasure-trail", icon: "💰" },
+  { id: "treasuretrail_sentence_2", sound: "zh", stage: "sentence", text: "The garage has a television inside.", segmentHint: "scan-multi", zoneId: "treasure-trail", icon: "📺" },
+
+  // --- Zone: Story Sentence Station (more mixed sentences, S-heavy) ---
+  { id: "storystation_1", sound: "s", stage: "sentence", text: "Sam sent a special message to his sister.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "✉️" },
+  { id: "storystation_2", sound: "s", stage: "sentence", text: "The squirrel squeezes past the square fence.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "🐿️" },
+  { id: "storystation_3", sound: "z", stage: "sentence", text: "Zoe's zipper got stuck in a zigzag.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "🤐" },
+  { id: "storystation_4", sound: "sh", stage: "sentence", text: "The shore town has a fresh fish shop.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "🐟" },
+  { id: "storystation_5", sound: "ch", stage: "sentence", text: "Chip's coach teaches chess at church.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "♟️" },
+  { id: "storystation_6", sound: "s", stage: "sentence", text: "Six silly citizens sang a zesty song.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "🎵" },
+  { id: "storystation_7", sound: "zh", stage: "sentence", text: "It's a usual pleasure to measure treasure.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "💰" },
+  { id: "storystation_8", sound: "s", stage: "sentence", text: "Sara's story is about a sudden sunset.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "🌇" },
+  { id: "storystation_9", sound: "s", stage: "sentence", text: "The boss will guess the mossy chess move.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "♟️" },
+  { id: "storystation_10", sound: "z", stage: "sentence", text: "Press the buzzer before the jazzy quiz.", segmentHint: "scan-multi", zoneId: "story-sentence-station", icon: "🔔" },
+
+  // --- Zone: Ultimate Twister Tour (final boss - hardest mixed content,
+  // including the new ZH sound) ---
+  { id: "ultimatetwister_1", sound: "s", stage: "tongue-twister", text: "Sam's squirrel squeezes past six silly citizens singing songs.", segmentHint: "scan-multi", zoneId: "ultimate-twister-tour", isBoss: true, icon: "🐿️" },
+  { id: "ultimatetwister_2", sound: "sh", stage: "tongue-twister", text: "The shore town's fresh fish shop sells shiny shells.", segmentHint: "scan-multi", zoneId: "ultimate-twister-tour", isBoss: true, icon: "🐚" },
+  { id: "ultimatetwister_3", sound: "z", stage: "tongue-twister", text: "Zoe's jazzy buzzer zips past a dozen zesty zebras.", segmentHint: "scan-multi", zoneId: "ultimate-twister-tour", isBoss: true, icon: "🦓" },
+  { id: "ultimatetwister_4", sound: "ch", stage: "tongue-twister", text: "Chip's coach teaches chess while chomping cheap chunks of cheese.", segmentHint: "scan-multi", zoneId: "ultimate-twister-tour", isBoss: true, icon: "🧀" },
+  { id: "ultimatetwister_5", sound: "zh", stage: "tongue-twister", text: "It's a usual pleasure to measure the treasure in the garage.", segmentHint: "scan-multi", zoneId: "ultimate-twister-tour", isBoss: true, icon: "💰" },
 ];
 
 export function itemsForZone(zoneId) {
